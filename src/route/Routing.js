@@ -1,7 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
-import Header from '../components/Header';
 import Nomatch from './Nomatch';
+import Header from '../components/Header';
+import Home from '../components/Home';
 
 function Routing() {
     return(
@@ -10,7 +11,7 @@ function Routing() {
             <main className="App-body">
                 <Switch>
                     <Route exact path="/">
-
+                        <Home/>
                     </Route>
                     <Route path="/quizz">
 
