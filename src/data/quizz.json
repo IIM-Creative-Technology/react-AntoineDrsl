@@ -1,0 +1,926 @@
+{
+    "list": [
+        {
+            "theme": "Capitales",
+            "image": "capitals.jpg"
+        },
+        {
+            "theme": "Histoire",
+            "image": "history.jpg"
+        },
+        {
+            "theme": "Pokemon",
+            "image": "pokemon.jpg"
+        },
+        {
+            "theme": "Musique",
+            "image": "music.jpg"
+        }
+    ],
+    "details": {
+        "capitals": {
+            "theme": "Capitales",
+            "image": "capitals.jpg",
+            "questions": [
+                {
+                    "question": "Quelle est la capitale de l'Ukraine ?",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "Sofia",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Kiev",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "Zagreb",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Prague",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quelle est la capitale de l'Allemagne ?",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "Bruxelles",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Berlin",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "Vienne",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Prague",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quelle est la capitale du Danemark ?",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "Amsterdam",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Copenhague",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "Riga",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Bucarest",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quelle est la capitale de l'Australie ?",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "Sydney",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Canberra",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "Lima",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "San José",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quelle est la capitale du Costa Rica ?",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "Lima",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "San José",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "Montevideo",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Bogota",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quelle est la capitale du Brésil ?",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "Salvador",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Brasilia",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "Rio de Janeiro",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Santiago",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quelle est la capitale des Etats-Unis ?",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "New-York",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Washington",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "Chicago",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "San Francisco",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quelle est la capitale de l'Inde ?",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "Bombay",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "New Delhi",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "Mumbai",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Pondichéry",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quelle est la capitale de l'Indonésie ?",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "Singapour",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Jakarta",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "Bangkok",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Manille",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quelle est la capitale de l'Egypte ?",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "Gizeh",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Le Caire",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "Alexandrie",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Louxor",
+                            "isCorrect": false
+                        }
+                    ]
+                }
+            ]
+        },
+        "history": {
+            "theme": "Histoire",
+            "image": "history.jpg",
+            "questions": [
+                {
+                    "question": "Qui a prononcé l'appel du 18 juin 1940 ?",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "Le maréchal Pétain",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Charles de Gaulle",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "Adolf Hitler",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Jean Moulin",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "En quelle année les femmes ont-elles obtenu le droit de vote ?",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "2000",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "1945",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "1918",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "1790",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel roi s'est fait guillotiner ?",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "Louis XIV",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Louis XVI",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "Napoléon",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Henri IV",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Qui a dit 'I have a dream' ?",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "Gandhi",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Martin Luther King",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "Steve Jobs",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Mark Zuckerberg",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel personnage historique est lié au vase de Soisson ?",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "Vercingétorix",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Clovis",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "César",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "François Hollande",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Combien y a-t-il de grandes pyramides à Gizeh ?",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "1",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "3",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "2",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "4",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "En quelle année a eu lieu la bataille de Verdun ?",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "1914",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "1916",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "1944",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "1860",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Sous quel dirigeant la France 'métropolitaine' a été la plus vaste ?",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "Napoléon III",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Napoléon Ier",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "Louis XIV",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Clovis",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Qui est le fondateur du mouvement royaliste L'Action Française ?",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "Charles Martel",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Charles Maurras",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "Charles de Gaulle",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Charlemagne",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "En quelle année a été créé l'Union Européenne ?",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "2002",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "1993",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "1951",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "1968",
+                            "isCorrect": false
+                        }
+                    ]
+                }
+            ]
+        },
+        "pokemon": {
+            "theme": "Pokémon",
+            "image": "pokemon.jpg",
+            "questions": [
+                {
+                    "question": "Quel est ce pokémon ?",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "Nidoqueen",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Nidoking",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "Nidoran",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Sablaireau",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel est ce pokémon ?",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "Kabuto",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Kabutops",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "Amonita",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Artikodin",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel est ce pokémon ?",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "Phione",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Manaphy",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "Cresselia",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Shaymin",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel est ce pokémon ?",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "Moufouette",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Moufflair",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "Chaffreux",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Chaglam",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel est ce pokémon ?",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "Keunotor",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Castorno",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "Corboss",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Cradopaud",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel est ce pokémon ?",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "Luminéon",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Ecayon",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "Babimanta",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Barloche",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel est ce pokémon ?",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "Vacilys",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Kaorine",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "Armaldo",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Noacier",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel est ce pokémon ?",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "Ouïeménan",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Nanméouïe",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "Mélofée",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Togépie",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel est ce pokémon ?",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "Démanta",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Rémoraid",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "Magicarpe",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Barpau",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Quel est ce pokémon ?",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "Pifeuil",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Lombre",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "Vigoroth",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Tarpaud",
+                            "isCorrect": false
+                        }
+                    ]
+                }
+            ]
+        },
+        "music": {
+            "theme": "Musique",
+            "image": "music.jpg",
+            "questions": [
+                {
+                    "question": "Elle court, elle court, la maladie d'amour. Elle chante, elle chante ...",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "La maladie d'amour",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "La rivière insolente",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "La rivière étincelante",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "La jeune femme insolente",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Oui, ma gâtée, ...",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "Shifter pro'",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "RS4 gris nardo",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "Ca prend ta CB",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "En bande organisée",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Viens voir les comédiens ...",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "voir les magiciens",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "voir les musiciens",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "voir les paladins",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "voir les artistes",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "De bon matin, j'ai rencontré le train, ...",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "de beaux présents, or, myrrhe et encens",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "de trois grands Rois",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "de trois grands prince",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "des paladins",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Bella, Bella, Bella, Bella, ...",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "Elle répondait au nom de Bella",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Bella, Bella, Bella, Bella",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "Bello, Bello, Bello, Bello",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Les gens du coin ne voulait pas la cher-lâ",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Et on fait tourner les serviettes ...",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "Ca nous fait du vent dans les couettes",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Comme des petites girouettes",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "C'est bon pour la tête",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "C'est bête, c'est bête",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "J'irai chercher ton coeur même si tu l'emportes ailleurs",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "J'irais chercher ton âme dans les froids dans les flammes",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Même si dans tes danses d'autres dansent tes heures",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "Je m'inventerai reine pour que tu me retiennes",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Je trouverais des langages pour chanter tes louanges",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Il y a certains jours où je reprends mon skate",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "A Paris c'était les States",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Et je vais faire un tour en 1987",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "Et je suis de retour en 1987",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Il y a certains jours dans lesquelles je me jette",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Je te promets le sel au baiser de ma bouche",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "Je te promets le ciel au dessus de ta couche",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Je te promets le miel à ma main qui te touche",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "Des fleurs et des dentelles pour que tes nuits soient douces",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Je te promets la clé des secrets de mon âme",
+                            "isCorrect": false
+                        }
+                    ]
+                },
+                {
+                    "question": "Cendrillon, pour ses 30 ans",
+                    "image": null,
+                    "responses": [
+                        {
+                            "response": "Est la plus jolie des enfants",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Est la plus triste des mamans",
+                            "isCorrect": true
+                        },
+                        {
+                            "response": "Le prince charmand a foutu le camp",
+                            "isCorrect": false
+                        },
+                        {
+                            "response": "Son bel amant, le prince charmant",
+                            "isCorrect": false
+                        }
+                    ]
+                }
+            ]
+        }
+    }
+}
