@@ -6,6 +6,7 @@ import Loading from "./weather/Loading";
 function Weather() {
     const [weather, setWeather] = useState([]);
     const [loaded, setLoaded] = useState(false);
+    const [suscribe, setSuscribe] = useState(true);
     const apiKey = "b9ad03fd414263457318a5b0d361aaed";
 
     useEffect(() => {
@@ -57,11 +58,19 @@ function Weather() {
                         video: video.default
                     });
                     setLoaded(true);
+
+                    return function cleanup() {
+                        setWeather()
+                    }
                 })
             });
         }
-        getWeather();
-    }, []);
+
+        if(suscribe) {
+            getWeather();
+        }
+        return () => setSuscribe(false);
+    });
 
     return(
         <div className="weatherSection">

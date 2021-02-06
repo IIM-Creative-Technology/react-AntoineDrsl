@@ -1,5 +1,7 @@
 import React from "react";
+import randomize from "../../utility/randomize";
 import Question from "./quizz/Question";
+import Result from "./quizz/Result";
 
 class Quizz extends React.Component {
     questions = randomize(this.props.quizz.questions);
@@ -21,22 +23,12 @@ class Quizz extends React.Component {
     }
 
     render() {
-        console.log(this.state.score);
         return(
             <div className="quizz">
-                { this.state.question < this.state.maxQuestion ? <Question question={this.questions[this.state.question]} nextQuestion={this.nextQuestion} /> : this.state.score }
+                { this.state.question < this.state.maxQuestion ? <Question question={this.questions[this.state.question]} nextQuestion={this.nextQuestion} /> : <Result score={this.state.score} total={this.state.maxQuestion} returnToSelection={this.props.returnToSelection} /> }
             </div>
         )
     }
-}
-
-function randomize(array) {
-    for(let i = array.length - 1; i > 0; i--) {
-        const n = Math.floor(Math.random() * (i + 1));
-        [array[i], array[n]] = [array[n], array[i]];
-    }
-
-    return array;
 }
 
 export default Quizz;

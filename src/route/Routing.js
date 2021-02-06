@@ -5,7 +5,7 @@ import Header from '../components/Header';
 import Home from '../components/Home';
 import Quizzs from '../components/Quizzs';
 
-function Routing() {
+function Routing(props) {
     return(
         <Router>
             <Header/>

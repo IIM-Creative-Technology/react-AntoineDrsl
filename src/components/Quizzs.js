@@ -18,10 +18,16 @@ class Quizzs extends React.Component {
         });
     }
 
+    returnToSelection = () => {
+        this.setState({
+            chosenQuizz: false
+        });
+    }
+
     render() {
         return(
             <div className="quizzPage">
-                {this.state.chosenQuizz ? <Quizz quizz={quizzData.details[this.state.chosenQuizz]}/> : <Selection quizzList={quizzData.list} selectQuizz={this.selectQuizz}/>}
+                {this.state.chosenQuizz ? <Quizz quizz={quizzData.details[this.state.chosenQuizz]} returnToSelection={this.returnToSelection} /> : <Selection quizzList={quizzData.list} selectQuizz={this.selectQuizz}/>}
             </div>
         )
     }

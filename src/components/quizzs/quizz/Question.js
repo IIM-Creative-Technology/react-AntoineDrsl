@@ -1,5 +1,6 @@
 import React from "react";
 import Response from "./Response";
+import randomize from "../../../utility/randomize";
 
 class Question extends React.Component {
     render() {
@@ -13,21 +14,13 @@ class Question extends React.Component {
         return(
             <div className="question">
                 {this.props.question.question}
+                { this.props.question.image ? <img src={require('../../../images/quizz/pokemon/' + this.props.question.image).default} alt={this.props.question.question} className="questionImage"/> : ""}
                 <div className="responses">
                     {Responses}
                 </div>
             </div>
         )
     }
-}
-
-function randomize(array) {
-    for(let i = array.length - 1; i > 0; i--) {
-        const n = Math.floor(Math.random() * (i + 1));
-        [array[i], array[n]] = [array[n], array[i]];
-    }
-
-    return array;
 }
 
 export default Question;
