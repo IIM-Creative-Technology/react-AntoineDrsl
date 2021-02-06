@@ -13,6 +13,18 @@
     height: 90%;
 }
 
+.pull-right {
+   float: right; 
+}
+
+.bold {
+    font-weight: $bold;
+}
+
+.thin {
+    font-weight: $thin;
+}
+
 @media (prefers-reduced-motion: no-preference) {
     .App-logo {
         animation: App-logo-spin infinite 20s linear;
@@ -32,4 +44,11 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
       monospace;
 }
+
+@media (max-width: 950px) {
+    .App {
+        height: 100%;
+    }
+}
+  
   

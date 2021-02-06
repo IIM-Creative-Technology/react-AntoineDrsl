@@ -1,5 +1,5 @@
 import '../Sass/components/_header.scss';
-import logo from '../logo.svg';
+import logo from '../images/logo.svg';
 import Nav from './header/Nav';
 
 function Header() {

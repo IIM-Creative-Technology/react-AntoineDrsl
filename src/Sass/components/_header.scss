@@ -10,6 +10,7 @@ header {
 
     .App-logo{
         max-height: 90%;
+        max-width: 25%;
         margin-right: 30px;
     }
 
@@ -26,3 +27,10 @@ header {
         }
     }
 }
+
+@media (max-width: 950px) {
+    header {
+        height: 80px;
+    }
+}
+
