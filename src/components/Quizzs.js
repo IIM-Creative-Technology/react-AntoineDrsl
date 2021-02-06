@@ -1,9 +1,10 @@
 import React from "react";
 import "../Sass/components/_quizz.scss";
 import quizzData from "../data/quizz.json";
-import Selection from "./quizz/Selection";
+import Selection from "./quizzs/Selection";
+import Quizz from "./quizzs/Quizz";
 
-class Quizz extends React.Component {
+class Quizzs extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -20,10 +21,10 @@ class Quizz extends React.Component {
     render() {
         return(
             <div className="quizzPage">
-                {this.state.chosenQuizz ? this.state.chosenQuizz : <Selection quizzList={quizzData.list} selectQuizz={this.selectQuizz} />}
+                {this.state.chosenQuizz ? <Quizz quizz={quizzData.details[this.state.chosenQuizz]}/> : <Selection quizzList={quizzData.list} selectQuizz={this.selectQuizz}/>}
             </div>
         )
     }
 }
 
-export default Quizz;
+export default Quizzs;

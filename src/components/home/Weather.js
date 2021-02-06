@@ -1,7 +1,7 @@
 import axios from "axios";
 import {useState, useEffect} from "react";
-import Frame from "./Frame";
-import Loading from "./Loading";
+import Frame from "./weather/Frame";
+import Loading from "./weather/Loading";
 
 function Weather() {
     const [weather, setWeather] = useState([]);

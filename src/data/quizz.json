@@ -1,18 +1,22 @@
 {
     "list": [
         {
+            "name": "capitals",
             "theme": "Capitales",
             "image": "capitals.jpg"
         },
         {
+            "name": "history",
             "theme": "Histoire",
             "image": "history.jpg"
         },
         {
+            "name": "pokemon",
             "theme": "Pokemon",
             "image": "pokemon.jpg"
         },
         {
+            "name": "music",
             "theme": "Musique",
             "image": "music.jpg"
         }

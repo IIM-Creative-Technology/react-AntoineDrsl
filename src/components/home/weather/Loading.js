@@ -1,4 +1,4 @@
-import loadingIcon from "../../images/loading-icon-white.png";
+import loadingIcon from "../../../images/loading-icon-white.png";
 
 function Loading() {
     return(

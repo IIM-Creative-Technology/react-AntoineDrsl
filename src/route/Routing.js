@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from "react-router-dom";
 import Nomatch from './Nomatch';
 import Header from '../components/Header';
 import Home from '../components/Home';
-import Quizz from '../components/Quizz';
+import Quizzs from '../components/Quizzs';
 
 function Routing() {
     return(
@@ -15,7 +15,7 @@ function Routing() {
                         <Home/>
                     </Route>
                     <Route path="/quizz">
-                        <Quizz/>
+                        <Quizzs/>
                     </Route>
                     <Route path="*">
                         <Nomatch/>
