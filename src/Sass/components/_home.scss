@@ -1,0 +1,163 @@
+@import '../helpers/variables.scss';
+
+.landingPage {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(44, 44, 48, 0.5), rgba(44, 44, 48, 0.5)), url('../../images/tokyo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .aboutSection {
+        width: 40%;
+        height: 75%;
+
+        h1 {
+            margin-bottom: 15px;
+        }
+
+        hr {
+            width: 25%;
+            margin-bottom: 30px;
+        }
+    }
+
+    .weatherSection {
+        width: 35%;
+        height: 40%;
+        margin-bottom: 90px;
+
+        .weather {
+            height: 100%;
+            background-color: transparent;
+            border: $white 2px solid;
+            border-radius: 10px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            font-size: 2.3rem;
+            position: relative;
+            overflow: hidden;
+
+            .weatherVideo {
+                position: absolute;
+                z-index: 1;
+
+                video {
+                    width: 155%;
+                }
+            }
+
+            .weatherInfo {
+                z-index: 10;
+                padding: 30px 45px 20px 45px;
+                height: 100%;
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                background-color:rgba(44, 44, 48, 0.3);
+
+                div {
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+    
+                    div {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: space-between;
+                    }
+                }
+
+                .sub-info {
+                    font-size: 1.4rem;
+                }
+
+                .center {
+                    justify-content: space-around;
+                }
+            }
+        }
+
+        .loading {
+            height: 100%;
+            background-color: transparent;
+            border: $white 2px solid;
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 1.5rem;
+
+            img {
+                height: 50%;
+                animation: Login-rotate infinite 20s linear;
+            }
+        }
+    }
+}
+
+@keyframes Login-rotate {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+@media (max-width: 1200px) {
+    .weather {
+        font-size: 1.7rem !important;
+    }
+}
+
+@media (max-width: 1100px) and (min-width: 950px) {
+    #feelsLike {
+        display: none;
+    }
+}
+
+@media (max-width: 950px) {
+    .landingPage {
+        flex-direction: column;
+        flex-direction: column-reverse;
+
+        .aboutSection {
+            width: 75%;
+            margin-bottom: 50px;
+        }
+
+        .weatherSection {
+            width: 75%;
+            margin: 50px 0;
+
+            .loading {
+                padding: 80px 0;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    #feelsLike {
+        display: none;
+    }
+
+    .weather {
+        font-size: 1.5rem !important;
+    }
+
+    .landingPage .weatherSection .weather .weatherInfo {
+        padding: 20px 25px 10px 25px;
+    }
+}
+
+@media (max-width: 350px) {
+    #video {
+        width: 200%;
+    }
+}

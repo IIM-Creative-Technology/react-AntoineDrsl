@@ -1,0 +1,36 @@
+@import '../helpers/variables.scss';
+
+header {
+    height: 10%;
+    width: 100vw;
+    background-color: $secondColor;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    .App-logo{
+        max-height: 90%;
+        max-width: 25%;
+        margin-right: 30px;
+    }
+
+    nav{
+        width: 25%;
+        ul {
+            width: 100%;
+            display: flex;
+            justify-content: flex-start;
+
+            li:first-child {
+                margin-right: 20px;
+            }
+        }
+    }
+}
+
+@media (max-width: 950px) {
+    header {
+        height: 80px;
+    }
+}
+
