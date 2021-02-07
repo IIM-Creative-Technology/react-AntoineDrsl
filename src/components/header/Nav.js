@@ -1,14 +1,20 @@
-import { Link } from "react-router-dom";
+import { Link, useLocation } from "react-router-dom";
 
 function Nav() {
+    const location = useLocation();
+
     return(
         <nav>
             <ul>
                 <li>
-                    <Link to="/">Home</Link>
+                    <Link to="/" className="link">
+                        <span className={location.pathname === "/" ? "active" : ""}>Home</span>
+                    </Link>
                 </li>
                 <li>
-                    <Link to="/quizz">Quizz</Link>
+                    <Link to="/quizz" className="link">
+                        <span className={location.pathname === "/quizz" ? "active" : ""}>Quizz</span>
+                    </Link>
                 </li>
             </ul>
         </nav>

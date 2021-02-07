@@ -1,0 +1,210 @@
+@import '../helpers/variables.scss';
+
+.quizzPage {
+    height: 100%;
+    width: 100%;
+    background-image: linear-gradient(rgba(44, 44, 48, 0.5), rgba(44, 44, 48, 0.5)), url('../../images/tokyo.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    .selection {
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+
+        .selectionCard {
+            width: 35%;
+            height: 35%;
+            background-color: transparent;
+            border: $white 2px solid;
+            border-radius: $round;
+            font-size: 2rem;
+            overflow: hidden;
+
+            .card {
+                margin-bottom: 10px;
+                height: 100%;
+                width: 100%;
+                display: flex;
+                position: relative;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    position: absolute;
+                    top: 0;
+                    left: 0;
+                    z-index: 1;
+                }
+
+                .cardText {
+                    width: 100%;
+                    height: 100%;
+                    display: flex;
+                    background-color:rgba(44, 44, 48, 0.3);
+                    justify-content: center;
+                    align-items: center;
+                    z-index: 10;
+                }
+            }
+        }
+
+        .selectionCard:hover {
+            cursor: pointer;
+        }
+    }
+
+    .quizz {
+        width: 100%;
+        height: 100%;
+        text-align: center;
+
+        .question {
+            width: 75%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: space-around;
+            margin: auto;
+            font-size: 2.3rem;
+
+            .questionImage {
+                width: 100px;
+                margin: 30px 0;
+            }
+
+            .responses {
+                width: 100%;
+                height: 75%;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                flex-wrap: wrap;
+
+                .normal {
+                    background-color: transparent;
+                }
+                .normal:hover {
+                    background-color: rgba(202, 202, 214, 0.39);
+                    color: $black;
+                }
+
+                .correct, .correct:hover {
+                    background-color: $bgGreen;
+                    color: $white;
+                }
+
+                .error, .error:hover {
+                    background-color: $bgRed;
+                    color: $white;
+                }
+
+                .responseCard {
+                    width: 45%;
+                    height: 40%;
+                    border: $white 2px solid;
+                    border-radius: $round;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    padding-bottom: 20px;
+                    text-align: center;
+                }
+
+                .responseCard:hover {
+                    cursor: pointer;
+                    transition-duration: $transition;
+                }
+            }
+        }
+
+        .result {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            align-items: center;
+
+            .score {
+                font-size: 15rem;
+                font-weight: $thin;
+            }
+
+            .return {
+                border: 1px $white solid;
+                border-radius: $round;
+                padding: 20px 15px;
+                background-color: $bgDark;
+            }
+            .return:hover {
+                cursor: pointer;
+                background-color: $bgGrey;
+                color: $white;
+                transition-duration: $transition;
+            }
+        }
+    }
+}
+
+@media (max-width: 950px) {
+    .quizzPage {
+        .selection {
+            flex-direction: column;
+            flex-wrap: nowrap;
+            min-height: 90vh;
+
+            .selectionCard {
+                width: 70%;
+                height: 275px;
+                margin-top: 50px;
+            }
+
+            .selectionCard:last-child {
+                margin-bottom: 50px;
+            }
+        }
+
+        .question {
+            padding-top: 50px !important;
+            min-height: 90vh !important;
+
+            .responses {
+                flex-direction: column;
+                flex-wrap: nowrap;
+                width: 80%;
+    
+                .responseCard {
+                    width: 100% !important;
+                    height: 35% !important;
+                    margin-top: 50px;
+                    padding: 20px 0 15px 0;
+                }
+    
+                .responseCard:last-child {
+                    margin-bottom: 50px;
+                }
+            }
+        }
+
+        .result {
+            height: 100vh !important;
+
+            #score {
+                font-size: 10rem;
+            }
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .result {
+        #score {
+            font-size: 7rem !important;
+        }
+    }
+}
